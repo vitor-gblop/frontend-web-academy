@@ -6,10 +6,29 @@
     <title>Document</title>
 
     <style>
-        
+        ol li:not(:first-child, :last-child)
+        {
+            background: #adf;
+        }
+        section h2:not(.contato)
+        {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    
+    <ol>
+        <li>1 elemento</li>
+        <li>2 elemento</li>
+        <li>3 elemento</li>
+        <li>4 elemento</li>
+        <li>5 elemento</li>
+    </ol>
+
+    <section>
+        <h2>produtos</h2>
+        <h2>empresas</h2>
+        <h2 class="contato">contatos</h2>
+    </section>
 </body>
 </html>
