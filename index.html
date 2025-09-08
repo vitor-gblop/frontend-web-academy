@@ -6,10 +6,52 @@
     <title>Document</title>
 
     <style>
-        
+        #lista-1 li:first-child
+        {
+            background-color: #caf;
+            
+        }
+        #lista-1 li:last-child
+        {
+            background-color: #cfa;
+
+        }
+        #lista-1 li:nth-child(3)
+        {
+            background-color: #fda;
+
+        }
+        #lista-2 li:nth-child(odd)
+        {
+            background-color: #cfa;
+        }
+        #lista-2 li:nth-child(even)
+        {
+            background-color: #adf;
+        }
+        #lista-2 li:nth-child(4n)
+        {
+            background-color: #caf;
+        }
     </style>
 </head>
 <body>
-    
+    <ol id="lista-1">
+        <li>Primeiro elemento</li>
+        <li>Segundo elemento</li>
+        <li>Terceiro elemento</li>
+        <li>Quarto elemento</li>
+        <li>Quinto elemento</li>
+    </ol>
+    <ol id="lista-2">
+        <li>Primeiro elemento</li>
+        <li>Segundo elemento</li>
+        <li>Terceiro elemento</li>
+        <li>Quarto elemento</li>
+        <li>Quinto elemento</li>
+        <li>Sexto elemento</li>
+        <li>Setimo elemento</li>
+        <li>Oitavo elemento</li>
+    </ol>
 </body>
 </html>
