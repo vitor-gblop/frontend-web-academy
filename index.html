@@ -3,13 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inline e Block</title>
 
     <style>
-        
+        span, a, strong
+        {
+            border: 2px solid rgba(0,0, 0, 0.8);
+        }
+        h1, p, h2, div
+        {
+            border: 0.7px solid rgba(255, 0,0,0.8)
+        }
     </style>
 </head>
 <body>
-    
+    <h1>Block</h1>
+    <a href="">Link inline</a>
+    <strong>Strong inline</strong>
+    <p>P block</p>
+    <p>Esse é um texto com um <span>elemento inline</span> dentro dele</p>
+    <div>
+        Esse é um texto com um <div>elemento block</div> dentro dele
+    </div>
 </body>
 </html>
